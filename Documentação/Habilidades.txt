@@ -1,0 +1,24 @@
+*****************************************************************************************
+****************** SWORD ART ONLINE - MMORPG BROWSER HTML5 PROJECT **********************
+*****************************************************************************************
+Habilidades:
+	
+	Fonte: http://swordartonline.wikia.com/wiki/Skills verificar.
+	Espada Curvada - 
+	Espada - 
+	Adaga - 
+	Lança - 
+	Machado - 
+	Arco e flecha - 
+	Crossbow - 
+	Escudo - 
+	Heavy armor - 
+	Light armor - 
+	Ferreiro - 
+	Mercador - 
+	Tamer - 
+	Liderança - 
+	encantamento - 
+	Fishing - 
+	Culinária - 
+	Sobrevivência - 

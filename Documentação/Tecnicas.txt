@@ -1,0 +1,12 @@
+*****************************************************************************************
+****************** SWORD ART ONLINE - MMORPG BROWSER HTML5 PROJECT **********************
+*****************************************************************************************
+Técnicas:
+
+Fonte: http://swordartonline.wikia.com/wiki/Extra_Skills
+
+Técnicas com a espada:
+
+Fonte externa: http://swordartonline.wikia.com/wiki/Sword_Skills
+Fonte externa: http://swordartonline.wikia.com/wiki/Dual_Blades
+Fonte externa: http://swordartonline.wikia.com/wiki/Original_Sword_Skill

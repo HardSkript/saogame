@@ -1,0 +1,23 @@
+*****************************************************************************************
+****************** SWORD ART ONLINE - MMORPG BROWSER HTML5 PROJECT **********************
+*****************************************************************************************
+Armas:
+
+Machados de duas mãos.
+Dragon Bone Axe fonte: http://swordartonline.wikia.com/wiki/Dragon_Bone_Axe
+
+Espadas de uma mão.
+Kagemitsu G4 fonte: http://swordartonline.wikia.com/wiki/Kagemitsu_G4
+Anneal Blade: http://swordartonline.wikia.com/wiki/Anneal_Blade
+Elucidator status: http://swordartonline.wikia.com/wiki/Elucidator
+Dark Repulser status: http://swordartonline.wikia.com/wiki/Dark_Repulser
+Karakurenai fonte: http://swordartonline.wikia.com/wiki/Karakurenai
+Sword of Blue Rose fonte: http://swordartonline.wikia.com/wiki/Sword_of_Blue_Rose
+Lambent Light fonte: http://swordartonline.wikia.com/wiki/Lambent_Light
+Black Iron Great Sword fonte: http://swordartonline.wikia.com/wiki/Black_Iron_Great_Sword
+Demonic Sword Gram fonte: http://swordartonline.wikia.com/wiki/Demonic_Sword_Gram
+Holy Sword Excaliber fonte: http://swordartonline.wikia.com/wiki/Holy_Sword_Excaliber
+
+Adaga.
+Ivory Dagger fonte: http://swordartonline.wikia.com/wiki/Ivory_Dagger
+Sword Breaker fonte: http://swordartonline.wikia.com/wiki/Sword_Breaker

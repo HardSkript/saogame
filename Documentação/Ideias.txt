@@ -1,0 +1,37 @@
+*****************************************************************************************
+****************** SWORD ART ONLINE - MMORPG BROWSER HTML5 PROJECT **********************
+*****************************************************************************************
+Ideias gerais:
+
+
+Ver possibilidade de um sistema de aquisição de casas, castelos, estalagem ou terrenos para contrução.
+ser possivel criar um arvore unica de habilidades onde o jogador posso jogar na posição que quiser.
+Ex: o cara quer ser um vendedor,ferreiro, dono da estalagem, um tamer, tanker, suporte ou ADC.
+
+Ao aumentar level do personagem somente aumenta a vida e a força, destreza, agilidade, 1 spot de skill a cada 3 leveis..
+
+Sistema de batalhas em grupo com escolha de estrátegia usada, onde as estratégia liberadas dependerá do grau de habilidade Liderança que o lider do grupo possui.
+
+Ao treinar o personagem somente irá treinar sua habilidades com a arma ao qual está utilizando e não os pontos de atributos.
+
+Possibilidade de encantar itens, para adicionar mais atributos.
+
+Possibilidade de aumentar o level dos itens, exemplo: Elucidator+2 ou Elucidator+5 onde aumentara os atributos dos equipamentos, sendo que não tem um fim está melhora de nivel, porém as chances de elevar vão diminuindo gradativamente.
+
+Sistema de exploração de mapas para libera-los.
+
+O boss ficará escondido até que seja encontrado.
+
+Comidas dão aumento de regen de hp e outros beneficios.
+
+Turorial de inicio explicando o básico do jogo como as skills, como treinar, como liberar o mapa e dando um pouco de gold de inicio de jogo, sendo possivel dar skip no tutorial.
+
+Uso de Cristais vermelhos para cura de vida de Cristais verdes para cura de venenos e outras advercidades e de Cristais azuis para teletransporte.
+
+Sistema de itens de rank E, D, C, B, A e S e também de itens unicos, como exemplo o Holy Set (Holy Sword, Holy Shield, Holy Armor, Holy Legs, Holy cape, Holy Gloves, Holy Boots, Holy Bracers, Holy Shoulders, Holy ring, Holy necklace, Holy earrings e Holy helmet.)
+
+O personagem poderá equipar um equipamento de cada tipo, Armadura,Vestimenta inferior, Calça, escudo, Espada/Maça/Machado/Adaga/Arco/Crossbow/lança, Ombreira, Capacete, Luva, Bracelete,Capa, Colar, Bota, e poderá usar 2 aneis e dois brincos.
+
+http://swordartonline.proboards.com/
+
+Itens terão durabilidade e conforme for diminuindo sua durabilidade e sprite do itens deve mudar.
