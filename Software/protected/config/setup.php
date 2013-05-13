@@ -9,7 +9,7 @@ $dbname = 'saogame';
 if($con	= mysqli_connect($dbhost,$dbuser,$dbpass)){
 	if(@mysqli_connect($dbhost,$dbuser,$dbpass,$dbname)){
 			
-		echo '[check-in do banco de dados]';
+		//echo '[check-in do banco de dados]';
 		
 	}else{
 		$sql="CREATE DATABASE {$dbname} CHARACTER SET utf8 COLLATE utf8_general_ci";

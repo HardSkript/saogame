@@ -303,3 +303,196 @@ Stack trace:
 REQUEST_URI=/App/index.php/app/login
 HTTP_REFERER=http://localhost/App/index.php/app/login
 ---
+2013/05/13 17:16:16 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "Gii".' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('Gii')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/Gii
+---
+2013/05/13 17:17:10 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:17:45 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:18:06 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:18:42 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:23:25 [error] [exception.CException] exception 'CException' with message 'O recurso "C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\assets", a ser publicado, não existe.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CAssetManager.php:257
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\GiiModule.php(142): CAssetManager->publish('C:\xampp\htdocs...')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CComponent.php(111): GiiModule->getAssetsUrl()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CModule.php(105): CComponent->__get('assetsUrl')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#15 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#16 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#17 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#21 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/default/log...')
+#22 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#24 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/gii/default/login
+---
+2013/05/13 17:25:13 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'saogame.usuarios' doesn't exist. A declaração SQL executada foi: SHOW FULL COLUMNS FROM `usuarios`.
+2013/05/13 17:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "login" solicitada.' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios/login')
+#3 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#5 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/usuarios/login
+---
