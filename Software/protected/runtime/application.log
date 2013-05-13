@@ -496,3 +496,35 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/github-chroda/saogame/Software/index.php/usuarios/login
 ---
+2013/05/13 17:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "login".' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/login
+---
+2013/05/13 17:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "login.php".' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('login.php')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/login.php
+---
+2013/05/13 17:59:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "loginForm.php".' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('loginForm.php')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/loginForm.php
+---
+2013/05/13 17:59:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "login.php".' in C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\web\CWebApplication.php(141): CWebApplication->runController('login.php')
+#1 C:\xampp\htdocs\github-chroda\saogame\Software\lib\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\github-chroda\saogame\Software\index.php(5): CApplication->run()
+#3 {main}
+REQUEST_URI=/github-chroda/saogame/Software/index.php/login.php
+---

@@ -1,4 +1,4 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html lang="pt-br">
 	<head>
 		<title><?php echo CHtml::encode(Yii::app()->name); ?></title>
