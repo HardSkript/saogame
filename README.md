@@ -4,7 +4,6 @@ html5BrowserGame
 > ### Colaboradores:
 > - Christian Marcell(chroda)
 > - Walter Luiz Martins
-> - Natali Gonzales
 > - Wendell Gustavo
 > - Marcos Eduardo
 
